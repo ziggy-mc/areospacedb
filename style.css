@@ -4,66 +4,56 @@ body {
   font-family: 'Inter', sans-serif;
   background: #0d1117;
   color: white;
+  text-align: center;
 }
 .hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(to bottom right, #0f172a, #1e3a8a);
+  padding: 100px 20px 60px;
+  background: linear-gradient(to bottom, #1f2937, #111827);
 }
-.logo {
-  max-width: 80px;
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #4facfe;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
 }
 .buttons {
   margin: 2rem 0;
 }
 .btn {
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  border-radius: 10px;
-  margin: 0.5rem;
   display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
 }
 .primary {
-  background-color: #3b82f6;
+  background: #4facfe;
   color: white;
+}
+.primary:hover {
+  background: #00f2fe;
 }
 .secondary {
-  border: 2px solid white;
+  background: #43e97b;
   color: white;
 }
-.features {
-  padding: 3rem 1rem;
-  background: #111827;
-  text-align: center;
-}
-.feature-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-.feature {
-  background: #1e3a8a;
-  border-radius: 12px;
-  padding: 1.5rem;
-  width: 250px;
+.secondary:hover {
+  background: #38f9d7;
 }
 footer {
-  padding: 2rem;
-  text-align: center;
-  background: #0f172a;
+  background: #111;
+  padding: 20px;
 }
-footer a {
-  margin: 0 1rem;
-  color: #3b82f6;
+.footer-nav a {
+  color: #bbb;
+  margin: 0 12px;
   text-decoration: none;
+  font-weight: 500;
 }
-.simple-header {
-  text-align: center;
-  padding: 2rem;
-  background: #1e3a8a;
-}
-.content {
-  padding: 2rem;
+.footer-nav a:hover {
+  color: white;
 }
