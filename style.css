@@ -228,6 +228,27 @@ main.content h2 {
 }
 
 
+
+
+
+
+
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #444;
+}
+
+.mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+
 .menu-toggle {
   display: block;
   background: #1f2937;
@@ -251,20 +272,20 @@ main.content h2 {
   position: fixed;
   top: 60px;
   right: 20px;
-  width: 240px;
+  width: 220px;
   padding: 1rem;
   z-index: 1000;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transform: translateY(-10px);
+  transform: scale(0.95);
   transition: all 0.3s ease-in-out;
 }
 
 .mobile-nav.show {
   display: flex;
   opacity: 1;
-  transform: translateY(0);
+  transform: scale(1);
 }
 
 .mobile-nav a {
