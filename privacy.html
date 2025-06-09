@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | Areospace</title>
+  <title>Privacy Policy</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
-  <header class="hero">
-    <h1>Privacy Policy</h1>
-    <p>This policy explains how Areospace collects and uses data from users and servers.</p>
-  </header>
   <div class="menu-container">
-  <button class="menu-toggle" onclick="document.querySelector('.mobile-nav').classList.toggle('show')">☰ Menu</button>
-  <nav class="mobile-nav">
-    <a href="index.html">Home</a>
-    <a href="partners.html">Partners</a>
-    <a href="vote.html">Vote</a>
-    <a href="areospaceplus.html">Areospace+</a>
-        <a href="tos.html">Terms</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="support.html">Support</a>
-    <a href="invite.html">Invite</a>
-    <a href="status.html">Status</a>
+    <button class="menu-toggle" onclick="document.querySelector('.mobile-nav').classList.toggle('show')">☰ Menu</button>
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="partners.html">Partners</a>
+      <a href="vote.html">Vote</a>
+      <a href="areospaceplus.html">Areospace+</a>
+      <a href="tos.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+      <a href="invite.html">Invite</a>
+      <a href="status.html">Status</a>
     </nav>
-</div>
+  </div>
 
-  <main class="content">
-    <h2>1. What We Collect</h2>
-    <p>We collect server IDs, command usage logs, and error messages to improve functionality.</p>
+  <main class="legal">
+    <h1>Privacy Policy</h1>
+    <p>Here is our info on our Privacy Policy</p>
 
-    <h2>2. How It's Used</h2>
-    <p>Data is used to diagnose bugs, track usage trends, and ensure service reliability.</p>
+    <h2>1. Introduction</h2>
+    <p>Welcome to Aerospace's Privacy Policy, This outlines how Aerospace collects, uses, and protects user data while providing it's most amazing features on discord! By using Aerospace you automatically agree to the info in this Privacy Policy.</p>
 
-    <h2>3. Retention</h2>
-    <p>Data is retained for no longer than 4 weeks unless required for debugging ongoing issues.</p>
+    <h2>2. Data Collection, Usage, Storage, and Retention</h2>
+    <p>Aerospace collects the following types of data:</p>
+    <ul>
+      <li><strong>User Commands:</strong> Commands entered by users to interact with the bot</li>
+      <li><strong>Guild Information:</strong> Data about the Servers where the bot is added, such as server ID, channel names, and roles</li>
+      <li><strong>User Identifiers:</strong> such as user IDs, usernames, and discriminator numbers necessary for bot functionality</li>
+    </ul>
+    <p>Aerospace uses this data to respond to user commands, enhance features, monitor crashes through error logs, and allow our beta testers and developers to identify and fix issues.</p>
+    <p>We store data temporarily for 2 to 4 weeks. You may request data deletion by DMing the server owner <strong>ziggy._.mc</strong>. It may take a few days depending on request volume.</p>
+    <p><strong>Note:</strong> Aerospace does NOT collect or store sensitive personal information unless explicitly required and consented to by the user.</p>
 
-    <h2>4. No Sensitive Data</h2>
-    <p>We do not store or access sensitive personal information without clear user consent.</p>
+    <h2>3. Third-Party Services</h2>
+    <p>Aerospace uses third-party services like MongoDB for database hosting. These services also comply with Discord’s Terms of Service and accepted data protection standards.</p>
 
-    <h2>5. Questions</h2>
-    <p>Contact the developer via the support server if you have questions about your data.</p>
+    <h2>4. Children's Privacy</h2>
+    <p>Aerospace is intended for use on Discord, which requires users to be at least 13 years old. We do not knowingly collect data from children under 13.</p>
+
+    <h2>5. Changes to this Privacy Policy and Contact</h2>
+    <p>This policy may be updated periodically. Updates will be announced in our support server’s announcement channel. Continued use of Aerospace after updates means you agree to them. For questions or deletion requests, use the <code>/support</code> command in our server.</p>
   </main>
-  <footer>
-      </footer>
-<footer style="text-align:center; padding:1rem; color:#aaa;">© 2025 Areospace Discord Bot. All rights reserved.</footer>
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const nav = document.querySelector('.mobile-nav');
-  document.querySelectorAll('.mobile-nav a').forEach(link => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('show');
+  <footer style="text-align:center; padding:1rem; color:#aaa;">
+    © 2025 Areospace Discord Bot. All rights reserved.
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const nav = document.querySelector('.mobile-nav');
+      document.querySelectorAll('.mobile-nav a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          nav.classList.remove('show');
+        });
+      });
     });
-  });
-});
-</script>
-
+  </script>
 </body>
 </html>
