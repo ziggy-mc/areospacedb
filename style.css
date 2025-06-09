@@ -155,7 +155,7 @@ main.content h2 {
 
 /* Mobile nav menu toggle */
 .menu-toggle {
-  display: none;
+  display: block;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -178,7 +178,7 @@ main.content h2 {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 9999px) { /* Always apply mobile nav layout */
   .footer-nav {
     display: none;
   }
@@ -193,7 +193,7 @@ main.content h2 {
 
 /* Top navigation menu for mobile */
 .menu-toggle {
-  display: none;
+  display: block;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -228,7 +228,7 @@ main.content h2 {
   font-weight: 500;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 9999px) { /* Always apply mobile nav layout */
   .menu-toggle {
     display: block;
   }
