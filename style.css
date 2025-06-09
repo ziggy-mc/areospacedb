@@ -164,13 +164,7 @@ main.content h2 {
   padding: 1rem;
 }
 
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  background: #111827;
-  padding: 1rem;
-}
+
 
 .mobile-nav a {
   margin: 0.5rem 0;
@@ -238,4 +232,38 @@ main.content h2 {
   .footer-nav {
     display: none;
   }
+}
+
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #1f2937;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: 220px;
+  padding: 1rem;
+  z-index: 1000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #333;
+}
+
+.mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+.mobile-nav.show {
+  display: flex;
 }
