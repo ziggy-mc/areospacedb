@@ -4,56 +4,106 @@ body {
   font-family: 'Inter', sans-serif;
   background: #0d1117;
   color: white;
-  text-align: center;
 }
 .hero {
-  padding: 100px 20px 60px;
-  background: linear-gradient(to bottom, #1f2937, #111827);
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #0f172a, #1e3a8a);
 }
-.hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #4facfe;
-}
-.hero p {
-  font-size: 1.1rem;
-  margin: 1rem 0;
+.logo {
+  max-width: 80px;
 }
 .buttons {
   margin: 2rem 0;
 }
 .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin: 10px;
-  border-radius: 25px;
-  font-weight: 600;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
+  border-radius: 10px;
+  margin: 0.5rem;
+  display: inline-block;
 }
 .primary {
-  background: #4facfe;
+  background-color: #3b82f6;
   color: white;
-}
-.primary:hover {
-  background: #00f2fe;
 }
 .secondary {
-  background: #43e97b;
+  border: 2px solid white;
   color: white;
 }
-.secondary:hover {
-  background: #38f9d7;
+.features {
+  padding: 3rem 1rem;
+  background: #111827;
+  text-align: center;
+}
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.feature {
+  background: #1e3a8a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 250px;
 }
 footer {
-  background: #111;
-  padding: 20px;
+  padding: 2rem;
+  text-align: center;
+  background: #0f172a;
 }
-.footer-nav a {
-  color: #bbb;
-  margin: 0 12px;
+footer a {
+  margin: 0 1rem;
+  color: #3b82f6;
   text-decoration: none;
-  font-weight: 500;
 }
-.footer-nav a:hover {
+.simple-header {
+  text-align: center;
+  padding: 2rem;
+  background: #1e3a8a;
+}
+.content {
+  padding: 2rem;
+}
+
+
+/* Ensure grid layout is styled */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style individual features */
+.feature {
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+/* Ensure content area (e.g., for TOS/Privacy) is readable */
+main.content {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
   color: white;
+  text-align: left;
+}
+
+main.content h2 {
+  margin-top: 2rem;
+  color: #4facfe;
+  font-size: 1.5rem;
 }
