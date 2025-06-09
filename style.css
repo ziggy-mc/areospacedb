@@ -421,3 +421,15 @@ main.content h2 {
 .mobile-nav a:last-child {
   border-bottom: none;
 }
+
+
+.feature-grid a.feature {
+  text-decoration: none;
+  color: inherit;
+}
+
+.feature-grid a.feature h3,
+.feature-grid a.feature p {
+  text-decoration: none;
+  color: #f0f0f0;
+}
