@@ -433,3 +433,38 @@ main.content h2 {
   text-decoration: none;
   color: #f0f0f0;
 }
+
+
+.legal {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #141a28;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.legal h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.legal h2 {
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+  color: #50aaff;
+}
+
+.legal p, .legal ul {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.legal ul {
+  margin-left: 2rem;
+  list-style: disc;
+}
