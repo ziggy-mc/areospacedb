@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Areospace+ purge Log</title>
+<style>
+.avatar { width: 32px; height: 32px; border-radius: 50%; vertical-align: middle; margin-right: 8px; }
+body { font-family: "Segoe UI", sans-serif; background-color: #36393f; color: #dcddde; padding: 20px; }
+.message { background-color: #2f3136; border-radius: 5px; padding: 10px; margin-bottom: 10px; }
+.author { font-weight: bold; color: #7289da; }
+.timestamp { font-size: 0.9em; color: #999; margin-left: 10px; }
+.username { font-weight: bold; color: #7289da; }
+.content { margin-top: 5px; }
+.embed { background-color: #2e3136; border-left: 4px solid #7289da; padding: 10px; margin-top: 10px; border-radius: 4px; }
+.embed-title { font-weight: bold; font-size: 1.1em; }
+.embed-description { margin-top: 5px; }
+.embed-field { margin-top: 8px; }
+.embed-field-name { font-weight: bold; }
+.embed-field-value { margin-left: 5px; }
+.embed-footer { margin-top: 10px; font-size: 0.85em; color: #999; }
+.components { margin-top: 10px; }
+.btn { margin-right: 5px; padding: 4px 10px; border: none; border-radius: 3px; cursor: default; font-size: 0.9em; }
+.btn.primary { background-color: #5865f2; color: white; }
+.btn.secondary { background-color: #4f545c; color: white; }
+.btn.success { background-color: #57f287; color: black; }
+.btn.danger { background-color: #ed4245; color: white; }
+.btn.link { background-color: transparent; color: #00aff4; text-decoration: underline; }
+.btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+.dropdown { background-color: #2f3136; color: #dcddde; border: 1px solid #202225; border-radius: 3px; padding: 5px; margin-top: 5px; }
+</style></head><body>
+<h1 style="color:#ffffff">Areospace+ Logging</h1>
+<h2>Purge Log - #aerospace-logs</h2>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 12:13:35 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+TypeError: plusGuilds.includes is not a function
+    at Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:43:21)
+    at InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T16:13:36.275Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 12:17:06 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+TypeError: resetGuildErrorLogFile is not a function
+    at Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:115:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T16:17:07.858Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:10:11 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.deferReply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:123:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:23:7)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:10:12.362Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:10:52 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.deferReply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:123:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:42:7)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:10:52.584Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:14:08 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:65:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:14:09.284Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:15:36 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:65:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:15:36.940Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:22:25 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:60:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:22:26.202Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 6:24:49 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:71:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T22:24:49.618Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 7:32:11 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:75:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T23:32:12.845Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+
+<div class="message">
+  <div class="author">
+    <img src="https://cdn.discordapp.com/avatars/1373770846749069443/cb5d3a0fdd2d0532e22019909e035b82.png?size=64" class="avatar" alt="avatar">
+    <span class="username">Aerospace#8041</span>
+    <span class="timestamp">8/3/2025, 7:33:50 PM</span>
+  </div>
+  <div class="content"></div>
+  <div class="embed"><div class="embed-title">⚠️ Error Detected ⚠️</div><div class="embed-description">```js
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BurstHandler.runRequest (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (D:\ziggy test bot\ziggy test bot\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (D:\ziggy test bot\ziggy test bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (D:\ziggy test bot\ziggy test bot\commands\community\error.js:75:9)
+    at async InteractionHandler (D:\ziggy test bot\ziggy test bot\index.js:105:9)
+    at async Client.<anonymous> (D:\ziggy test bot\ziggy test bot\index.js:140:43)
+```</div><div class="embed-field"><div class="embed-field-name">Context</div><div class="embed-field-value">commands error</div></div><div class="embed-field"><div class="embed-field-name">Timestamp</div><div class="embed-field-value">2025-08-03T23:33:51.867Z</div></div><div class="embed-field"><div class="embed-field-name">Client User</div><div class="embed-field-value"><@1373770846749069443></div></div></div>
+  
+</div>
+</body></html>
