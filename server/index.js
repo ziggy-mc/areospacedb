@@ -8,6 +8,9 @@ const CLIENT_ID = process.env.DISCORD_CLIENT_ID;
 const CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET;
 const REDIRECT_URI = process.env.DISCORD_REDIRECT_URI;
 
+const botGuildsRoute = require('./routes/botGuilds');
+app.use('/api', botGuildsRoute(client));
+
 app.get('/api/auth/discord', (req, res) => {
   const params = querystring.stringify({
     client_id: CLIENT_ID,
@@ -58,3 +61,4 @@ app.get('/api/auth/discord/callback', async (req, res) => {
 });
 
 app.listen(3001, () => console.log('OAuth server running on http://localhost:3001'));
+
