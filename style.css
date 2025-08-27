@@ -30,6 +30,10 @@ body {
   border: 2px solid white;
   color: white;
 }
+.tertiary {
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
 .features {
   padding: 3rem 1rem;
   background: #111827;
